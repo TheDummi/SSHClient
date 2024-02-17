@@ -25,6 +25,8 @@ async function main() {
 		options: options,
 	});
 
+	if (host == 'exit') process.exit();
+
 	if (host == 'config') {
 		const config = await clack.select({
 			message: 'Configuration',

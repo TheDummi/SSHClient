@@ -7,6 +7,9 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"scripts": {
+		"patch": "git add . && git commit -m %npm_package_version% && npm version patch"
+	},
 	"dependencies": {
 		"@clack/prompts": "^0.7.0",
 		"readline": "^1.3.0"
