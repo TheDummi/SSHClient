@@ -8,7 +8,7 @@
 	"author": "",
 	"license": "ISC",
 	"scripts": {
-		"patch": "git add . && git commit -m %npm_package_version% && npm version patch && git push"
+		"patch": "git add . && git commit -m %npm_package_version% && npm version patch && git tag %npm_package_version% && git push"
 	},
 	"dependencies": {
 		"@clack/prompts": "^0.7.0",
