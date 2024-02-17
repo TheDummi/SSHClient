@@ -37,4 +37,4 @@ call npm i
 
 echo {"keys":[]} > ../config.json
 
-start.cmd
+SSHClient.cmd
